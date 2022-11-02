@@ -6,21 +6,29 @@ body {
   }
 
     #primera-noticia {
-        background-color: aqua;
+        background-color: #ebebeb;
         width: 630px;
         height: 450px;
         padding: 20px;
         text-align: center;
         float: left;
+        border-radius: 10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
     }
 
     #segunda-noticia {
-        background-color: thistle;
+        background-color: #ebebeb;
         width: 630px;
         height: 469px;
         padding: 10px;
         text-align: center;
         float: right;     
+        border-radius: 10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
     }
 
 #unicornio {

@@ -1,46 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #c7f6d4;
-    text-align: center;
-    margin: 14px;
-}
-
-#logo-container {
-    margin-top: 40px;
-    margin-left: 10px;
-}
-
-#post {
-    font-family: 'Fredoka One', bold;
-    font-size: 73px;
-    color: red;
-    margin-top: -120px;
-    margin-left: -688px;    
-}
-
-#fake-news {
-    font-family: 'Fredoka One';
-    font-size: 20px;
-    color: red;
-    margin-top: -87px;
-    margin-left: -700px;
-}
-
-#nav-bar {
-    height: 100px;
-    width: 890px;
-    float: right;
-    margin-top: -125px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-
+    display: flex;
+    flex-direction: row;
+    margin: 2%;  
 }
 
 #news-container {
-    margin-top: -1000px;
-    margin-bottom: -10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;   
 }
 
 #primera-noticia {
@@ -51,24 +22,18 @@ body {
     text-align: center;
     float: left;
     border-radius: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    margin-top: 110px;
+    border: solid 1px black;
     }
 
-    #segunda-noticia {
-        background-color: #ebebeb;
-        width: 618px;
-        height: 469px;
-        padding: 10px;
-        text-align: center;
-        float: right;     
-        border-radius: 10px;
-        border-width: 1px;
-        border-style: solid;
-        border-color: black;
-        margin-top: 110px;
+#segunda-noticia {
+    background-color: #ebebeb;
+    width: 618px;
+    height: 469px;
+    padding: 10px;
+    text-align: center;
+    float: right;     
+    border-radius: 10px;
+    border: solid 1px black;
     }
 
 #unicornio {
@@ -106,11 +71,5 @@ h3 {
     margin-bottom: 25px;
 }
 
-#gula {
-    width: 15%;
-    height: 15%;
-    margin-left: -1100px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
+
 
